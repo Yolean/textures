@@ -24,8 +24,8 @@ umd ->
     background = ""
     radius = 2
     complement = false
-    fill = "#343434"
-    stroke = "#343434"
+    fill = "black"
+    stroke = "black"
     strokeWidth = 0
     id = rand()
 
@@ -132,7 +132,7 @@ umd ->
   lines: () ->
     size = 20
     strokeWidth = 2
-    stroke = "#343434"
+    stroke = "black"
     id = rand()
     background = ""
     orientation = ["diagonal"]
@@ -264,7 +264,7 @@ umd ->
     height = 1
     width = 1
     strokeWidth = 2
-    stroke = "#343434"
+    stroke = "black"
     background = ""
     d = ""
     shapeRendering = "auto"

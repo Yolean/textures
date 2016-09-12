@@ -25,8 +25,8 @@
         background = "";
         radius = 2;
         complement = false;
-        fill = "#343434";
-        stroke = "#343434";
+        fill = "black";
+        stroke = "black";
         strokeWidth = 0;
         id = rand();
         circles = function(sel) {
@@ -123,7 +123,7 @@
         var background, id, lines, orientation, path, shapeRendering, size, stroke, strokeWidth;
         size = 20;
         strokeWidth = 2;
-        stroke = "#343434";
+        stroke = "black";
         id = rand();
         background = "";
         orientation = ["diagonal"];
@@ -270,7 +270,7 @@
         height = 1;
         width = 1;
         strokeWidth = 2;
-        stroke = "#343434";
+        stroke = "black";
         background = "";
         d = "";
         shapeRendering = "auto";
