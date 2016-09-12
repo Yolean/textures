@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/riccardoscalco/textures/issues"
   },
-  "homepage": "https://github.com/riccardoscalco/textures"
+  "homepage": "https://github.com/riccardoscalco/textures",
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  },
+  "scripts": {
+    "prepublish": "./node_modules/.bin/coffee -c textures.coffee"
+  }
 }
